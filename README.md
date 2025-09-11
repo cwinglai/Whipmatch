@@ -15,24 +15,24 @@ An interactive web-based car knowledge game that challenges players to identify 
 
 ### Features 
 
-Game Modes Included:
+#### Game Modes Included:
 
   - Country Mode: A focus on car from specific countries (Japan, Germany, UK, France, USA)
   - Random Mode: Cars from all countries
 
-Interactive Gameplay: 
+#### Interactive Gameplay: 
 
   - A dynamic score tracking system
   - Performance ratings based on player accuracy
   - Smooth animations and hover effects
   - Used SweetAlert to display custom pop-ups for game events to display correct matches or wrong answers
 
-Car Database:
+#### Car Database:
 
   - 50+ Vehicles in png files
   - Organized by country of origin
 
-Responsive Design:
+#### Responsive Design:
 
   - Clean, modern UI with CSS Grid Layout
   - Mobile-friendly interface

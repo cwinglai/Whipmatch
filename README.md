@@ -13,7 +13,7 @@ An interactive web-based car knowledge game that challenges players to identify 
 
 
 
-### FEATURES 🚀
+### Features 
 
 Game Modes Included:
 
@@ -37,7 +37,7 @@ Responsive Design:
   - Clean, modern UI with CSS Grid Layout
   - Mobile-friendly interface
 
-### TECHNOLOGIES USED ⚙️
+### Technologies Used 
 
   - Frontend: HTML5, CSS3, JavaScript (ES6+)
   - Styling: CSS Grid, Flexbox, Custom Animations

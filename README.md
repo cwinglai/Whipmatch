@@ -49,7 +49,7 @@ An interactive web-based car knowledge game that challenges players to identify 
 ## Installation
 
 ### Option 1: Play Online
-[Play WHIPMATCH](https://yourusername.github.io/whipmatch-car-game)
+[Play WHIPMATCH](https://cwlai101.github.io/Whipmatch/)
 
 ### Option 2: Play Locally
 1. Clone the repository:

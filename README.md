@@ -55,7 +55,7 @@ An interactive web-based car knowledge game that challenges players to identify 
 1. Clone the repository:
  ```bash
 git clone https://github.com/CWLai101/Whipmatch.git
- ```
+```
 
 2. Navigate to the folder:
  ```bash

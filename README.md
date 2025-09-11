@@ -62,8 +62,6 @@ git clone https://github.com/CWLai101/Whipmatch.git
 cd Whipmatch
  ```
 3. Open the Game:
-  - Double-click index.html
-    OR
-  - Right-click index.html -> "Open with" -> Your browser
-
+  - Double-click index.html OR Right-click index.html -> "Open with" -> Your browser
+    
 4. Start Playing!

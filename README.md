@@ -11,7 +11,7 @@ Interactive Gameplay:
   -A dynamic score tracking system
   -Performance ratings based on player accuracy
   -Smooth animations and hover effects
-  -Used SweetAlert to display custom pop-ups for game events to display correct matches or wrong answers.
+  -Used SweetAlert to display custom pop-ups for game events to display correct matches or wrong answers
 
 Car Database:
 

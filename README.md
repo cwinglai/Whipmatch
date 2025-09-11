@@ -1,7 +1,7 @@
 An interactive web-based car knowledge game that challenges players to identify cars from around the world. 
 
-**FEATURES 🚀
-**
+**FEATURES🚀**
+
 Game Modes Included:
 
   - Country Mode: A focus on car from specific countries (Japan, Germany, UK, France, USA)
@@ -24,8 +24,8 @@ Responsive Design:
   - Clean, modern UI with CSS Grid Layout
   - Mobile-friendly interface
 
-**TECHNOLOGIES USED ⚙️
-**
+**TECHNOLOGIES USED ⚙️**
+
   - Frontend: HTML5, CSS3, JavaScript (ES6+)
   - Styling: CSS Grid, Flexbox, Custom Animations
   - Libraries: SweetAlert2 for notifications

@@ -1,4 +1,4 @@
-# WHIPMATCH - Car Matching Game 🚗
+# WhipMatch - Car Matching Game 🚗
 
 An interactive web-based car knowledge game that challenges players to identify cars from around the world. 
 

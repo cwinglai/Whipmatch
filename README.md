@@ -46,5 +46,11 @@ An interactive web-based car knowledge game that challenges players to identify 
   - Libraries: SweetAlert2 for notifications
   - Assets: Custom car image collection, country flags
 
+## Installation
 
+### Option 1: Play Online
+[Play WHIPMATCH](https://yourusername.github.io/whipmatch-car-game)
 
+### Option 2: Play Locally
+Clone the repo:
+git clone https://github.com/yourusername/whipmatch-car-game.git

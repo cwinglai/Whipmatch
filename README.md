@@ -20,8 +20,8 @@ Car Database:
 
 Responsive Design:
 
-  -Clean, modern UI with CSS Grid Layout
-  -Mobile-friendly interface
+  - Clean, modern UI with CSS Grid Layout
+  - Mobile-friendly interface
 
 TECHNOLOGIES USED
 

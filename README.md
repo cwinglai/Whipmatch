@@ -52,6 +52,18 @@ An interactive web-based car knowledge game that challenges players to identify 
 [Play WHIPMATCH](https://yourusername.github.io/whipmatch-car-game)
 
 ### Option 2: Play Locally
-Clone the repo:
+1. Clone the repository:
  ```bash
 git clone https://github.com/CWLai101/Whipmatch.git
+ ```
+
+2. Navigate to the folder:
+ ```bash
+cd Whipmatch
+ ```
+3. Open the Game:
+  - Double-click index.html
+    OR
+  - Right-click index.html -> "Open with" -> Your browser
+
+4. Start Playing!

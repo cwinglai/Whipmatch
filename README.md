@@ -2,6 +2,7 @@
 
 An interactive web-based car knowledge game that challenges players to identify vehicles from around the world. WHIPMATCH combines automotive passion with engaging gameplay, featuring over 50 carefully curated cars from five major automotive regions: Japan, Germany, the United Kingdom, France, and the United States. Whether you're a car enthusiast looking to test your knowledge or a casual player wanting to learn about iconic vehicles, this game offers an immersive experience with dynamic scoring, performance tracking, and visual feedback. Choose between Country Mode to focus on specific automotive cultures or Random Mode for the ultimate mixed challenge.
 
+### Screenshots
 
 <img width="1470" height="765" alt="Screenshot 2025-09-10 at 10 40 13 PM" src="https://github.com/user-attachments/assets/71cbaeb4-30bc-44cc-9e65-bdba14ebc4ca" />
 <img width="1470" height="764" alt="Screenshot 2025-09-10 at 10 40 27 PM" src="https://github.com/user-attachments/assets/2bbaf041-b0a6-481e-a765-7eebc8dfe73c" />

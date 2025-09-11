@@ -37,7 +37,6 @@ An interactive web-based car knowledge game that challenges players to identify 
 ### Responsive Design:
 
   - Clean, modern UI with CSS Grid Layout
-  - Mobile-friendly interface
 
 ## Technologies Used 
 

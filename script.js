@@ -60,11 +60,11 @@ function startGame(mode) {
     if (mode === 'country') {
         document.querySelector('.countryRandomContainer').style.display = 'none';
         document.getElementById('flagSection').style.display = 'block';
-        document.getElementById('countryTitle').style.display = 'block'; // Add this line
-
+        document.getElementById('countryTitle').style.display = 'block'; 
 
     } else  //random mode
     {
+        
         document.querySelector('.countryRandomContainer').style.display = 'none';
         document.getElementById('gameBoard').style.display = 'block';
         document.getElementById('countryTitle').style.display = 'none';
@@ -86,13 +86,11 @@ function shuffle(array)
     }
     return array;
 }
-function selectCountry(country) //
+function selectCountry(country) 
 {
     document.getElementById('flagSection').style.display = 'none';
     document.getElementById('gameBoard').style.display = 'block';
     
-    
-    // Reset scores for new game
     correctCount = 0;
     totalCount = 0;
     
@@ -104,14 +102,6 @@ function selectCountry(country) //
     };
 
     startRound();
-    // const cars = carData[country];
-    // const randomIndex = Math.floor(Math.random() * cars.length);
-    // const randomCar = cars[randomIndex];
-    // currentCar = randomCar;
-    // document.getElementById('carPrompt').innerText = `Select: ${randomCar.name}`;
-    // showCars(carData[country]);
-
-
     function backtoCountry() {
         hideAllSections();
         document.getElementById('flagSection').style.display = 'block';
@@ -129,15 +119,6 @@ function startRound ()
     currentCar = remainingCars[randomIndex];
 
 
-
-    // let distractorArray = [];
-    // for (i=0; i<cars.length; i++) {
-    //     if (cars[i].name !== currentCar.name)
-    //         distractorArray.push(cars[i]);
-    //     }
-    // }
-
-
     document.getElementById('carPrompt').innerText = `Select: ${currentCar.name}`;
     showCars(remainingCars);
 }
@@ -148,19 +129,8 @@ function showCars(carArray) {
     const board = document.querySelector('.carGrid');
     board.innerHTML = ''; //removes any existing content inside gameBoard
     const shuffledCars = shuffle([...carArray]); //...carArray is a spread operator, creating copy of the carArray
-    //const is a constant variable, one thaat cannot be reassigned after creation
-    //the copy is passed down to the shuffle function
-    shuffledCars.forEach(car => { //loop through every item in shuffledCars with car representing the current car object in the loop
-//         //The Flow:
-// Take original car list
-
-// Make a copy so we don't mess up the original
-
-// Shuffle the copy randomly
-
-// Loop through each car in the shuffled list
-
-// Create a button for each car
+   
+    shuffledCars.forEach(car => { 
     const btn = document.createElement('button');
         btn.className = 'car-card';
         btn.innerHTML = `<img src="${car.img}" alt =$"{car.name}" ><p></p>`;
@@ -174,7 +144,6 @@ function showCars(carArray) {
                     });
           
                     correctCount++;
-                    // Remove the guessed car from remaining cars
                     remainingCars = remainingCars.filter(c => c.name !== car.name);
                     startRound();
                 } else {
@@ -200,7 +169,7 @@ function allCars () {
     });
     return allCars
 }
-function Previous() //on select a mode screen to go back to main menu, and about to main menu
+function Previous() 
 {
     
     document.querySelector(".menubuttons").style.display = "flex";
@@ -221,7 +190,7 @@ function selectaModeScreen()
 }
 
 const countrytitleCars = {
-    japan: 'JDM'
+    japan: 'JAPANESE CARS'
     ,
     germany: 'GERMAN CARS'
     ,
@@ -234,43 +203,71 @@ const countrytitleCars = {
 
 const carData  = {
     japan: [
-    { name: 'Toyota Supra', img: 'images/supra.png'},
-    { name: 'Mazda RX-7', img: 'images/mazdarx7.png'},
-    { name: 'Lexus LC500', img: 'images/lexuslc500.png'},
-    { name: 'Lexus IS350', img: 'images/lexusis350.png'},
-    { name: 'Honda NSX', img: 'images/hondansx.png'},
-    { name: 'Mitsubishi Evo', img: 'images/mitsubishievo.png'},
+    { name: 'Toyota Supra', img: 'assets/cars/supra.png'},
+    { name: 'Mazda RX-7', img: 'assets/cars/mazdarx7.png'},
+    { name: 'Lexus LC500', img: 'assets/cars/lexuslc500.png'},
+    { name: 'Lexus IS350', img: 'assets/cars/lexusis350.png'},
+    { name: 'Honda NSX', img: 'assets/cars/hondansx.png'},
+    { name: 'Mitsubishi Evo', img: 'assets/cars/mitsubishievo.png'},
+    { name: 'Nissan GTR R35', img: 'assets/cars/gtr.png'},
+    { name: 'Acura RSX', img: 'assets/cars/rsx.png'},
+    { name: 'Subaru WRX STI', img: 'assets/cars/subiesti.png'},
+    { name: 'Nissan Skyline GT-R R34', img: 'assets/cars/skyline.png'},
+    { name: 'Mazda Miata', img: 'assets/cars/miata.png'},
+    { name: 'Toyota Chaser', img: 'assets/cars/chaser.png'},
+
+
     ],
     germany: [
-    { name: 'BMW M4', img: 'images/bmwm4.png'},
-    { name: 'Porsche Carerra GT', img: 'images/carrera.png'},
-    { name: 'Mercedes Benz AMG GT63', img: 'images/amg63.png'},
-    { name: 'Audi R8', img: 'images/r8.png'},
-    { name: 'BMW E92 M3', img: 'images/e92.png'},
-    { name: 'Porsche 911', img: 'images/911.png'},
+    { name: 'BMW M4', img: 'assets/cars/bmwm4.png'},
+    { name: 'Porsche Carerra GT', img: 'assets/cars/carrera.png'},
+    { name: 'Mercedes Benz AMG GT63', img: 'assets/cars/amg63.png'},
+    { name: 'Audi R8', img: 'assets/cars/r8.png'},
+    { name: 'BMW E92 M3', img: 'assets/cars/e92.png'},
+    { name: 'Porsche 911', img: 'assets/cars/911.png'},
+    { name: 'Volkswagen Golf', img: 'assets/cars/golf.png'},
+    { name: 'BMW i8', img: 'assets/cars/i8.png'},
+    { name: 'BMW M2 G87', img: 'assets/cars/g87.png'},
+    { name: 'Mercedes Benz S Class', img: 'assets/cars/sclass.png'},
+    { name: 'Mercedes Benz G Wagon', img: 'assets/cars/gwagon.png'},
+    { name: 'Porsche Taycan', img: 'assets/cars/taycan.png'},
+
     ],
     unitedkingdom: [
-        { name: 'Mclaren P1', img: 'images/mclarenp1.png'},
-        { name: 'Rolls Royce Phantom', img: 'images/phantom.png'},
-        { name: 'Aston Martin Vantage', img: 'images/vantage.png'},
-        { name: 'Jaguar F Type', img: 'images/ftype.png'},
-        { name: 'Jensen FF', img: 'images/jensenff.png'},
-        { name: 'Lotus Elise', img: 'images/lotuselise.png'},
+        { name: 'Mclaren P1', img: 'assets/cars/mclarenp1.png'},
+        { name: 'Rolls Royce Phantom', img: 'assets/cars/phantom.png'},
+        { name: 'Aston Martin Vantage', img: 'assets/cars/vantage.png'},
+        { name: 'Jaguar F-Type', img: 'assets/cars/ftype.png'},
+        { name: 'Jensen FF', img: 'assets/cars/jensenff.png'},
+        { name: 'Lotus Elise', img: 'assets/cars/lotuselise.png'},
+        { name: 'Rolls Royce Ghost', img: 'assets/cars/ghost.png'},
+        { name: 'Rolls Royce Wraith', img: 'assets/cars/wraith.png'},
+        { name: 'Mini Cooper S Car', img: 'assets/cars/cooperscar.png'},
+        { name: 'Jaguar E-Type', img: 'assets/cars/etype.png'},
+        { name: 'Bentley Continental GT', img: 'assets/cars/continental.png'},
+        { name: 'Bentley Bentayga', img: 'assets/cars/bentayga.png'},
     ],
     france: [
-        { name: 'Bugatti Chiron', img: 'images/chiron.png'},
-        { name: 'Renault Alpine', img: 'images/alpine.png'},
-        { name: 'Renault 5 Turbo', img: 'images/r5.png'},
-        { name: 'Dacia Duster', img: 'images/duster.png'},
-        { name: 'Citroen DS3', img: 'images/ds3.png'},
-        { name: 'Citroen DS', img: 'images/DS.png'},
+        { name: 'Bugatti Chiron', img: 'assets/cars/chiron.png'},
+        { name: 'Renault Alpine', img: 'assets/cars/alpine.png'},
+        { name: 'Renault 5 Turbo', img: 'assets/cars/r5.png'},
+        { name: 'Dacia Duster', img: 'assets/cars/duster.png'},
+        { name: 'Citroen DS3', img: 'assets/cars/ds3.png'},
+        { name: 'Citroen DS', img: 'assets/cars/DS.png'},
     ],
     unitedstates: [
-        { name: 'Corvette Stingray', img: 'images/stingray.jpg'},
-        { name: 'Dodge Challenger SRT Hellcat', img: 'images/hellcat.png'},
-        { name: '67 Ford Shelby', img: 'images/shelby.png'},
-        { name: 'Ford GT', img: 'images/GT.png'},
-        { name: 'Chevrolet Chevelle', img: 'images/chevelle.png'},
-        { name: 'Dodge Viper', img: 'images/viper.png'},
+        { name: 'Corvette Stingray', img: 'assets/cars/stingray.jpg'},
+        { name: 'Dodge Challenger SRT Hellcat', img: 'assets/cars/hellcat.png'},
+        { name: '67 Ford Shelby', img: 'assets/cars/shelby.png'},
+        { name: 'Ford GT', img: 'assets/cars/GT.png'},
+        { name: 'Chevrolet Chevelle', img: 'assets/cars/chevelle.png'},
+        { name: 'Dodge Viper', img: 'assets/cars/viper.png'},
+        { name: 'Chevrolet Belair', img: 'assets/cars/belair.png'},
+        { name: 'Dodge Ram', img: 'assets/cars/ram.png'},
+        { name: 'Tesla Model S', img: 'assets/cars/models.png'},
+        { name: 'Tesla Cybertruck', img: 'assets/cars/cybertruck.png'},
+        { name: 'Cadillac CT5', img: 'assets/cars/cadillacct5.png'},
+        { name: 'Jeep Wrangler', img: 'assets/cars/wrangler.png'},
+
     ],
-}
+};

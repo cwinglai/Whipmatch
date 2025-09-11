@@ -51,8 +51,8 @@ h4 {
 }
 
 .menubuttons  {
-    position: absolute;  /* Position buttons separately */
-    bottom: 150px;  /* Place near bottom */
+    position: absolute;  
+    bottom: 150px;  
     left: 50%;
     transform: translateX(-50%);
     margin-top: 0;
@@ -111,12 +111,12 @@ h4 {
     margin-top: 0;
 }
 .countryRandomContainer h1 {
-    font-size: 2.5rem;  /* Smaller than the main title */
+    font-size: 2.5rem;  
     margin-bottom: 30px;
-    position: static;   /* Override the absolute positioning */
-    transform: none;    /* Remove transform */
-    top: auto;          /* Reset positioning */
-    left: auto;         /* Reset positioning */
+    position: static;  
+    transform: none;   
+    top: auto;          
+    left: auto;         
 }
 
 
@@ -216,7 +216,7 @@ body {
 }
 .carGrid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(6, minmax(150px, 1fr));
     gap: 24px;
 
 }
@@ -272,11 +272,11 @@ body {
 #gameBoard {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centers children horizontally */
+    align-items: center; 
     justify-content: center;
     height: 80vh;
     width: 100%;
-    padding-top: 120px; 
+    padding-top: 90px; 
 
 
 }
@@ -341,7 +341,6 @@ body {
 
 
 #aboutSection {
-    /* justify-content: center; */
     padding-top: 200px;
     max-width: 600px;
     margin: 0 auto;

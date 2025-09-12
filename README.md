@@ -48,12 +48,12 @@ An interactive web-based car knowledge game that challenges players to identify 
 ## Installation
 
 ### Option 1: Play Online
-[Play WHIPMATCH](https://cwlai101.github.io/Whipmatch/)
+[Play WHIPMATCH](https://cwinglai.github.io/Whipmatch/)
 
 ### Option 2: Play Locally
 1. Clone the repository:
  ```bash
-git clone https://github.com/CWLai101/Whipmatch.git
+git clone https://github.com/cwinglai/Whipmatch.git
 ```
 
 2. Navigate to the folder:

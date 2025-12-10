@@ -1,6 +1,6 @@
 # WHIPMATCH - Car Matching Game 
 
-Match the car model prompt with the correct image :P
+A fun game to increase your car expertise
 
 ## Screenshots
 

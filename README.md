@@ -1,6 +1,6 @@
-# WHIPMATCH - Car Matching Game 🚗
+# WHIPMATCH - Car Matching Game 
 
-An interactive web-based car knowledge game that challenges players to identify vehicles from around the world. WHIPMATCH combines automotive passion with engaging gameplay, featuring over 50 carefully curated cars from five major automotive regions: Japan, Germany, the United Kingdom, France, and the United States. Whether you're a car enthusiast looking to test your knowledge or a casual player wanting to learn about iconic vehicles, this game offers an immersive experience with dynamic scoring, performance tracking, and visual feedback. Choose between Country Mode to focus on specific automotive cultures or Random Mode for the ultimate mixed challenge.
+Match the car model prompt with the correct image :P
 
 ## Screenshots
 
